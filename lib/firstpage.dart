@@ -13,7 +13,7 @@ class _FirstpageState extends State<Firstpage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
+      body: SizedBox(
         height: double.infinity,
         width: double.infinity,
         child: Column(
@@ -61,6 +61,7 @@ class _FirstpageState extends State<Firstpage> {
                 onPressed: () {
                   Navigator.push(
                     context,
+                    // ignore: non_constant_identifier_names
                     MaterialPageRoute(builder: (Context) => Signup()),
                   );
                 },

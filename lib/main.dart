@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:medi_link/SplashScreen.dart';
+import 'package:medi_link/login.dart';
 
 void main() {
   runApp(const MyApp());
@@ -47,7 +48,7 @@ class MyApp extends StatelessWidget {
         //     ),
         //   ),
       ),
-      home: const Splash(),
+      home: const Login(),
     );
   }
 }
