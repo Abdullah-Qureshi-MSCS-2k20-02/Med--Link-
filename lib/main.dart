@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:medi_link/SplashScreen.dart';
+import 'package:medi_link/bottomnavigator.dart';
 import 'package:medi_link/home.dart';
 import 'package:medi_link/login.dart';
 
